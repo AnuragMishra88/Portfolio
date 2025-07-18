@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage with WhatsApp Button</title>
+    <script src="https://kit.fontawesome.com/7a38982c2a.js" crossorigin="anonymous"></script>
+
+    <style>
+        .scrolling-text-container {
+            width: 10%;
+            /* You can adjust the width */
+            overflow: hidden;
+            background-color: #46caee;
+            /* Optional, for contrast */
+            padding: 10px 0;
+        }
+
+        .scrolling-text {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scrollText 10s linear infinite;
+            /* Adjust speed here */
+        }
+
+        @keyframes scrollText {
+            0% {
+                transform: translateX(-120%);
+                /* Start from the right */
+            }
+
+            100% {
+                transform: translateX(100%);
+                /* Move to the left */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="scrolling-text-container">
+        <p class="scrolling-text">Available for Work</p>
+    </div>
+
+
+
+
+</body>
+
+</html>
