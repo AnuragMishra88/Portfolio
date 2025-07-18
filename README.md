@@ -1,4 +1,4 @@
-#Portfolio
+
 Welcome to Anurag Mishra's Portfolio — a showcase of my journey as a passionate Frontend Developer and B.Tech student at ABES Engineering College. This portfolio highlights my expertise in modern web technologies including HTML, CSS, JavaScript, and React, along with my practical experience building real-world projects.
 
 What you’ll find here:
